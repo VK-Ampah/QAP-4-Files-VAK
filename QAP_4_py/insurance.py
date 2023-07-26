@@ -114,6 +114,8 @@ while True:
     # Calculate the first day of the next month
     next_payment_date = current_date.replace(day=1)
     next_payment_date += relativedelta(months=1)
+    
+    # Format dates
     current_date = datetime.strftime(current_date.date(), "%Y-%m-%d")
     next_payment_date = datetime.strftime(next_payment_date.date(), "%Y-%m-%d")
 
