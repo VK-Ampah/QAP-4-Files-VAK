@@ -1,6 +1,6 @@
 
 # Program Description: This program calculates new insurance policeis for One Stop Insurance Company
-# Author: nValentine Ampah
+# Author: Valentine Ampah
 # Date: 2023-07-26
 
 from datetime import datetime
